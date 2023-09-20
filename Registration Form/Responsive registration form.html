@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-uA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Responsive registration</title>
+    <link rel="stylesheet" type="text/css" href="Responsive registration form.css" />
+     </head>
+     <body>
+        <!-- <div class="container">
+            <img src="https://thenewcollege.edu.in/images/logonew2b1png.png" alt="Collage image">
+        </div> -->
+        
+
+
+        <div class="container">
+            <h1 class="form-title">Registration</h1>
+            <form action="#">
+                <div class="main-user-info">
+                    <div class="user-input-box">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstname" name="firstname" placeholder="Enter First Name"/>
+                        <span id="firstnameError" class="error"></span>
+                    </div>
+                    <div class="user-input-box">
+                        <label for="lastname">Last name</label>
+                        <input type="text" id="lastname" name="lastname" placeholder="Enter last Name"/>
+                        <span id="lastnameError" class="error"></span>
+                    </div>
+                    <div class="user-input-box">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email" placeholder="Enter Email"/>
+                        <span id="emailError" class="error"></span>
+                    </div>
+                    <div class="user-input-box">
+                        <label for="phonenumber">Phone Number</label>
+                        <input type="text" id="phonenumber" name="phonenumber" placeholder="Enter Phone Number"/>
+                        <span id="phonenumberError" class="error"></span>
+                    </div>
+                    <div class="user-input-box">
+                        <label for="password">Password</label>
+                        <input type="text" id="password" name="password" placeholder="Enter Password"/>
+                        <span id="passwordError" class="error"></span>
+                    </div>
+                    <div class="user-input-box">
+                        <label for="confirm password">Confirm Password</label>
+                        <input type="text" id="confirmpassword" name="confirmpassword" placeholder="Enter Confirm Password"/>
+                        <span id="confirmpasswordError" class="error"></span>
+                    </div>
+                </div>
+                <div class="gender-detials-box">
+                    <span class="gender-title">Gender</span>
+                    <div class="gender-categary">
+                        <input type="radio" name="gender" id="male">
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="female">
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender" id="other">
+                        <label for="other">Other</label>
+                        <span id="genderError" class="error"></span>
+                    </div>
+                </div>
+        
+                <div class="form-submit-btn">
+                    <input type="submit" value="Registration">
+                </div>
+            </form>
+
+        </div>
+        <script src="Responsive registration form.js"></script>
+
+     </body>
+</html>
